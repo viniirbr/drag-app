@@ -1,0 +1,25 @@
+body > div {
+  width: 90%;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 0 40px;
+  justify-content: space-between;
+}
+
+.card-space {
+  width: 100px;
+  height: 160px;
+  border: 1px dashed gray;
+}
+
+.card {
+  width: 100px;
+  height: 160px;
+  background: lightcoral;
+  cursor: pointer;
+}
